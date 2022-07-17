@@ -1,7 +1,50 @@
+body {
+    padding: 20px;
+    background-color:powderblue;
+}
+
+.html5 {
+    width: 100px;
+}
+
+#miprimerapp {
+    font-weight:bold;
+}
+
 h1 {
     color: blue;
     font-family:cursive;
     font-size:x-large
 }
+
+h1.ejemplo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
 li {font-family: monospace;}
-h3 {color: red;}
+
+.lista {
+    width: 300px;
+}
+
+h3 {
+    color: red;
+text-align: center;}
+
+ol {
+    width: 80%;
+    margin-left: 20px;
+    padding-left: 50px;
+}
+
+li > span {
+    margin-left: 20px;
+}
